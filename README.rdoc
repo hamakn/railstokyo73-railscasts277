@@ -1,3 +1,10 @@
 = Uhoh
 
 This project rocks and uses MIT-LICENSE.
+
+== How to test this engine
+
+$ cd test/dummy
+$ rake uhoh:install:migrations 
+$ rake db:migrate
+$ rails s
